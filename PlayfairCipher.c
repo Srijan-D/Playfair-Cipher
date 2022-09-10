@@ -157,7 +157,7 @@ int main()
             }
         }
     }
-    // printf("\n row1: %d\n col1: %d\n row2: %d\n col2: %d\n", row1, col1, row2, col2);
+
     // three cases:
     int checkCase = 0;
     // case 1:
@@ -220,7 +220,7 @@ int main()
     printf("\ncipherText: %c%c", matrix[row1][col1], matrix[row2][col2]);
 
     // Decryption:
-    // similar approach to encryption
+    // similar approach for encryption
     switch (checkCase)
     {
 
