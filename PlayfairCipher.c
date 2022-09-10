@@ -215,8 +215,6 @@ int main()
         col1 = col2;
         col2 = temp;
     }
-
-    // printf("\n row1: %d\n col1: %d\n row2: %d\n col2: %d\n", row1, col1, row2, col2);
     printf("\ncipherText: %c%c", matrix[row1][col1], matrix[row2][col2]);
 
     // Decryption:
@@ -267,7 +265,7 @@ int main()
         break;
         int temp;
     case 3:
-        // default statements
+        // default statement
         // interchanging col1 and col2
         temp = col2;
         col2 = col1;
@@ -277,7 +275,7 @@ int main()
     default:
         printf("Some error occurred");
     }
-    // decrypted text is:
+    // decrypted text is printed out:
     printf("\ndecrypted text: %c%c", matrix[row1][col1], matrix[row2][col2]);
     return 0;
 }
